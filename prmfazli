@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazlı Sarı | prmfazli.com.tr</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            background-color: #090b10;
+            color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .box {
+            max-width: 460px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+
+        .domain {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #f97316;
+            margin-bottom: 18px;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 16px;
+        }
+
+        .line {
+            width: 48px;
+            height: 2px;
+            background-color: #263042;
+            margin: 0 auto 22px auto;
+        }
+
+        .quote {
+            color: #9ca3af;
+            font-size: 1.05rem;
+            font-style: italic;
+            letter-spacing: 0.4px;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <div class="domain">prmfazli.com.tr</div>
+        <h1>Fazlı Sarı</h1>
+        <div class="line"></div>
+        <p class="quote">“Valkor est nimbus, soltera de prax.”</p>
+    </div>
+
+</body>
+</html>
